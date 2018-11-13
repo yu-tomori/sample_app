@@ -1,41 +1,41 @@
-# Ruby on Rails ƒ`ƒ…[ƒgƒŠƒAƒ‹‚ÌƒTƒ“ƒvƒ‹ƒAƒvƒŠƒP[ƒVƒ‡ƒ“
+# Ruby on Rails ãƒãƒ¥ãƒ¼ãƒˆãƒªã‚¢ãƒ«ã®ã‚µãƒ³ãƒ—ãƒ«ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³
 
-‚±‚ê‚ÍAŽŸ‚Ì‹³Þ‚Åì‚ç‚ê‚½ƒTƒ“ƒvƒ‹ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Å‚·B   
-[*Ruby on Rails ƒ`ƒ…[ƒgƒŠƒAƒ‹*](https://railstutorial.jp/)
-[Michael Hartl](http://www.michaelhartl.com/) ’˜
+ã“ã‚Œã¯ã€æ¬¡ã®æ•™æã§ä½œã‚‰ã‚ŒãŸã‚µãƒ³ãƒ—ãƒ«ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã§ã™ã€‚   
+[*Ruby on Rails ãƒãƒ¥ãƒ¼ãƒˆãƒªã‚¢ãƒ«*](https://railstutorial.jp/)
+[Michael Hartl](http://www.michaelhartl.com/) è‘—
 
-## ƒ‰ƒCƒZƒ“ƒX
+## ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
 
-[Ruby on Rails ƒ`ƒ…[ƒgƒŠƒAƒ‹](https://railstutorial.jp/)“à‚É‚ ‚é
-ƒ\[ƒXƒR[ƒh‚ÍMITƒ‰ƒCƒZƒ“ƒX‚ÆBeerwareƒ‰ƒCƒZƒ“ƒX‚Ì‚à‚Æ‚ÅŒöŠJ‚³‚ê‚Ä‚¢‚Ü‚·B
-Ú×‚Í [LICENSE.md](LICENSE.md) ‚ð‚²——‚­‚¾‚³‚¢B
+[Ruby on Rails ãƒãƒ¥ãƒ¼ãƒˆãƒªã‚¢ãƒ«](https://railstutorial.jp/)å†…ã«ã‚ã‚‹
+ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã¯MITãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã¨Beerwareãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã®ã‚‚ã¨ã§å…¬é–‹ã•ã‚Œã¦ã„ã¾ã™ã€‚
+è©³ç´°ã¯ [LICENSE.md](LICENSE.md) ã‚’ã”è¦§ãã ã•ã„ã€‚
 
-## Žg‚¢•û
+## ä½¿ã„æ–¹
 
-‚±‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ð“®‚©‚·ê‡‚ÍA‚Ü‚¸‚ÍƒŠƒ|ƒWƒgƒŠ‚ðŽèŒ³‚ÉƒNƒ[ƒ“‚µ‚Ä‚­‚¾‚³‚¢B
-‚»‚ÌŒãAŽŸ‚ÌƒRƒ}ƒ“ƒh‚Å•K—v‚É‚È‚é RubyGems ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·B
+ã“ã®ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’å‹•ã‹ã™å ´åˆã¯ã€ã¾ãšã¯ãƒªãƒã‚¸ãƒˆãƒªã‚’æ‰‹å…ƒã«ã‚¯ãƒ­ãƒ¼ãƒ³ã—ã¦ãã ã•ã„ã€‚
+ãã®å¾Œã€æ¬¡ã®ã‚³ãƒžãƒ³ãƒ‰ã§å¿…è¦ã«ãªã‚‹ RubyGems ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™ã€‚
 
 ```
 $ bundle install --without production
 ```
 
-‚»‚ÌŒãAƒf[ƒ^ƒx[ƒX‚Ö‚Ìƒ}ƒCƒOƒŒ[ƒVƒ‡ƒ“‚ðŽÀs‚µ‚Ü‚·B
+ãã®å¾Œã€ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã¸ã®ãƒžã‚¤ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ã‚’å®Ÿè¡Œã—ã¾ã™ã€‚
 
 ```
 $ rails db:migrate
 ```
 
-ÅŒã‚ÉAƒeƒXƒg‚ðŽÀs‚µ‚Ä‚¤‚Ü‚­“®‚¢‚Ä‚¢‚é‚©‚Ç‚¤‚©Šm”F‚µ‚Ä‚­‚¾‚³‚¢B
+æœ€å¾Œã«ã€ãƒ†ã‚¹ãƒˆã‚’å®Ÿè¡Œã—ã¦ã†ã¾ãå‹•ã„ã¦ã„ã‚‹ã‹ã©ã†ã‹ç¢ºèªã—ã¦ãã ã•ã„ã€‚
 
 ```
 $ rails test
 ```
 
-ƒeƒXƒg‚ª–³Ž–‚É’Ê‚Á‚½‚çARailsƒT[ƒo[‚ð—§‚¿ã‚°‚é€”õ‚ª®‚Á‚Ä‚¢‚é‚Í‚¸‚Å‚·B
+ãƒ†ã‚¹ãƒˆãŒç„¡äº‹ã«é€šã£ãŸã‚‰ã€Railsã‚µãƒ¼ãƒãƒ¼ã‚’ç«‹ã¡ä¸Šã’ã‚‹æº–å‚™ãŒæ•´ã£ã¦ã„ã‚‹ã¯ãšã§ã™ã€‚
 
 ```
 $ rails server
 ```
 
-Ú‚µ‚­‚ÍA[*Ruby on Rails ƒ`ƒ…[ƒgƒŠƒAƒ‹*](https://railstutorial.jp/)
-‚ðŽQl‚É‚µ‚Ä‚­‚¾‚³‚¢B
+è©³ã—ãã¯ã€[*Ruby on Rails ãƒãƒ¥ãƒ¼ãƒˆãƒªã‚¢ãƒ«*](https://railstutorial.jp/)
+ã‚’å‚è€ƒã«ã—ã¦ãã ã•ã„ã€‚
