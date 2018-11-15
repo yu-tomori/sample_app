@@ -33,5 +33,6 @@ group :production do
   gem 'pg', '0.20.0'
 end
 
-# WindowsŠÂ‹«‚Å‚Ítzinfo-data‚Æ‚¢‚¤gem‚ðŠÜ‚ß‚é•K—v‚ª‚ ‚è‚Ü‚·
+# Windowsï¿½Â‹ï¿½ï¿½Å‚ï¿½tzinfo-dataï¿½Æ‚ï¿½ï¿½ï¿½gemï¿½ï¿½ï¿½Ü‚ß‚ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'coffee-script-source', '1.8.0'
