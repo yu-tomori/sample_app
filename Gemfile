@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '5.1.6' 
-gem 'puma',         '3.9.1' 
-gem 'sass-rails',   '5.0.6' 
-gem 'uglifier',     '3.2.0' 
-gem 'coffee-rails', '4.2.2' 
-gem 'jquery-rails', '4.3.1' 
+gem 'rails',        '5.1.6'
+gem 'puma',         '3.9.1'
+gem 'sass-rails',   '5.0.6'
+gem 'uglifier',     '3.2.0'
+gem 'coffee-rails', '4.2.2'
+gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
 
@@ -33,5 +33,6 @@ group :production do
   gem 'pg', '0.20.0'
 end
 
-# WindowsŠÂ‹«‚Å‚Ítzinfo-data‚Æ‚¢‚¤gem‚ðŠÜ‚ß‚é•K—v‚ª‚ ‚è‚Ü‚·
+# Windowsï¿½Â‹ï¿½ï¿½Å‚ï¿½tzinfo-dataï¿½Æ‚ï¿½ï¿½ï¿½gemï¿½ï¿½ï¿½Ü‚ß‚ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'coffee-script-source', '1.8.0'
